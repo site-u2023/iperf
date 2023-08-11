@@ -8,7 +8,7 @@ ip=192.168.1.1
 
 start() {
   echo start iperf3
-  echo     iperf3 --server --daemon --pidfile $pidfile --bind $ip
+  echo　iperf3 --server --daemon --pidfile $pidfile --bind $ip
   echo
   iperf3 --server --daemon --pidfile $pidfile --bind $ip
 }
